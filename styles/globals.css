@@ -1,0 +1,198 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.blog-pagination > .btn {
+  border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav-icon {
+  margin: 0 0.75rem;
+  align-self: center;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+  opacity: 0.75;
+  margin: 0 0.75rem;
+  align-self: center;
+}
+
+
+.globe-icon {
+  margin-right:0.5rem;
+  align-self: center;
+}
+/* .accordion-button {
+  justify-content: flex-end;  
+  flex-direction: row-reverse;
+} */
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus-circle' viewBox='0 0 16 16'%3E%3Cpath d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E%0A");
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(0deg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16px' height='16px'%3E%3Cpath d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z' style='fill: rgb(0, 0, 0);'/%3E%3Cpath d='M 7.5 7.5 L 8.5 7.5 L 11.5 7.5 C 11.885 7.5 12.125 7.917 11.933 8.25 C 11.844 8.405 11.679 8.5 11.5 8.5 L 7.5 8.5 L 4.5 8.5 C 4.115 8.5 3.875 8.083 4.067 7.75 C 4.156 7.595 4.321 7.5 4.5 7.5 L 7.5 7.5 Z' style='fill: rgb(0, 0, 0);'/%3E%3C/svg%3E");
+}
+
+.divider {
+  margin: 3rem 0 ;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+}
+
+.container-fluid {
+  background-color: rgb(240, 240, 240);
+}
+
+.form-select-sm {
+  width: fit-content;
+}
+
+.language-select {
+  background-position: right .5rem center;
+  background-size: 16px 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-expand' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z'/%3E%3C/svg%3E");
+}
+
+.flag-icon {
+  border-radius: 0.6rem;
+}
+
+.checkout {
+  max-width: 950px;
+  margin: auto;
+}
+
+.react-json-view {
+  font-size: 0.75rem;
+}
+
+.card-text {
+  font-weight: 500;
+  height: 3rem;
+}
+
+.card-pricing-former {
+  width: fit-content;
+  padding-right: 0;
+  opacity: 0.5;
+  text-decoration: line-through;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.card-product-row {
+  align-self: center;
+}
+
+.card-pricing {
+  margin: 0;
+  align-self: center;
+  width: fit-content;
+}
+
+.stars {
+  margin-right: .25rem;
+}
+
+.stars-row {
+  margin-bottom: 1rem;
+}
+
+.spinner-button {
+  cursor: pointer;
+  user-select: none;
+}
+
+.spinner-input {
+  max-width: 2.2rem;
+}
+
+.circle-color {
+  width: auto;
+  height: 1rem;
+  border-radius: 2px;
+  margin-left: 0.2rem;
+}
+
+.blog-post {
+  margin-top: 2rem;
+}
+
+.size-row {
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.size {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid rgb(174, 174, 174);
+  margin-right: 0.5rem;
+}
+
+.size:hover {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid black;
+  background-color: rgb(240, 240, 240);
+  margin-right: 0.5rem;
+}
+
+.size > p {
+  text-transform: uppercase;
+  padding-top: 0.9rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.size-out-stock {
+  border: 1px solid rgb(196, 196, 196);
+  background: 
+         linear-gradient(to top left,
+             rgba(0,0,0,0) 0%,
+             rgba(0,0,0,0) calc(50% - 0.8px),
+             rgb(196, 196, 196) 50%,
+             rgba(0,0,0,0) calc(50% + 0.8px),
+             rgba(0,0,0,0) 100%);
+  color: rgb(196, 196, 196);
+}
+
+.css-b62m3t-container {
+  max-width: 9rem;
+}
+
+.flag-select {
+  border-radius: 2px;
+  margin-bottom: 2.5px;
+  margin-right: 5px;
+}
+
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
